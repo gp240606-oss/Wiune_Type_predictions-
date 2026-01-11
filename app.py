@@ -12,7 +12,7 @@ import joblib
 import streamlit as st
 import pandas as pd
 
-model=joblib.load('Wine_type_prediction_model.pkl')
+model=joblib.load('model.pkl')
 
 st.set_page_config(page_title='Wine Type classificaton',layout='centered')
 st.title('🍷📊 Wine Type Classification App')
